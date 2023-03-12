@@ -87,11 +87,11 @@
 
 .link:hover {
     border-bottom: 3px solid #4f84cb;
-    padding-bottom: 25px;
+    padding-bottom: 28px;
 }
 
 .banner {
-    background: url(/images/banner_background.jpg) no-repeat;
+    background: url(../images/banner_background.jpg) no-repeat;
     background-position: bottom;
     background-size: cover;
     font-style: normal;
@@ -172,17 +172,17 @@
 }
 
 .blue {
-    background-image: url(/images/pencil.png);
+    background-image: url(../images/pencil.png);
     background-color: #5094f2;
 }
 
 .red {
-    background-image: url(/images/monitor.png);
+    background-image: url(../images/monitor.png);
     background-color: #d94748;
 }
 
 .yellow {
-    background-image: url(/images/small_cart.png);
+    background-image: url(../images/small_cart.png);
     background-color: #ebbb11;
 }
 
