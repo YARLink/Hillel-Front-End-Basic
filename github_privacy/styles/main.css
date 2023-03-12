@@ -10,7 +10,7 @@ body {
 }
 
 .header {
-    background: url("/images/Gradient_Map_1.png") no-repeat;
+    background: url("../images/Gradient_Map_1.png") no-repeat;
     background-size: cover;
     background-position: center;
     margin-bottom: 15px;
