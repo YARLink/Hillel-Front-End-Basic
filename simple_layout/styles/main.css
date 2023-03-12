@@ -17,7 +17,7 @@ body {
     font-weight: 500;
     color: #ffffff;
     text-align: left;
-    background: url(/images/bg_image.jpg) no-repeat #141b23;
+    background: url(../images/bg_image.jpg) no-repeat #141b23;
     background-position: right top;
 }
 
