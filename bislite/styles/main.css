@@ -424,13 +424,13 @@
 
 .preview {
     width: 35px;
-    background-image: url(/bislite/images/preview.png);
+    background-image: url(../images/preview.png);
     margin-left: 65px;
 }
 
 .reference {
     width: 20px;
-    background-image: url(/bislite/images/link.png);
+    background-image: url(../images/link.png);
     margin-left: 35px;
 }
 
@@ -443,20 +443,20 @@ img {
 }
 
 .our_clients {
-    margin-left: 90px;
-    width: 485px;
+    margin-left: 87px;
+    width: 487px;
 }
 
 .testimonials_header_icon {
     width: 24px;
     height: 23px;
-    background-image: url(/bislite/images/comments.png);
+    background-image: url(../images/comments.png);
 }
 
 .our_client_header_icon {
     width: 24px;
     height: 20px;
-    background-image: url(/bislite/images/clients.png);
+    background-image: url(../images/clients.png);
 }
 
 .testimonials_header .chapter_header,
@@ -544,7 +544,7 @@ img {
 .download_button_icon {
     width: 29px;
     height: 26px;
-    background-image: url(/bislite/images/download.png);
+    background-image: url(../images/download.png);
 }
 
 .download_button_text {
