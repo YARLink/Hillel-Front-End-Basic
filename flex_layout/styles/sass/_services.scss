@@ -1,0 +1,24 @@
+.services {
+    padding: 25px 0 68px 0;
+    &_header {
+        font-size: 50px;
+        font-weight: bold;
+        line-height: 1.6;
+        letter-spacing: -1px;
+    }
+    &_cards {
+        display: flex;
+        justify-content: space-between;
+        align-items: baseline;
+        text-align: center;
+        margin-top: 75px;
+    }
+    .service_card_text {
+        font-family: "PT-Serif";
+        font-size: 20px;
+        line-height: 1.4;
+        letter-spacing: -0.4px;
+        width: 168px;
+        margin-top: 40px;
+    }
+}

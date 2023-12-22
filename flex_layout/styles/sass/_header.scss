@@ -1,0 +1,38 @@
+.header {
+    background-image: url(../../images/road.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 9px 18px 5px;
+    &_container_bg {
+        background-color: rgba(189, 179, 158, 0.75);
+        padding-bottom: 148px;
+    }
+    .container {
+        padding-top: 38px;
+    }
+    .head {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .nav_bar {
+        display: flex;
+    }
+    .nav_bar_item {
+        :hover {
+            background-color: $main_color_bright;
+            color: #fff;
+            border-radius: 5px;
+        }
+    }
+    .nav_bar_item_link {
+        color: $main_color_dark;
+        text-decoration: none;
+        font-size: 18px;
+        font-weight: normal;
+        line-height: 1.22;
+        letter-spacing: -0.36px;
+        padding: 11px 15px;
+    }
+}

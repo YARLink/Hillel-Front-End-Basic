@@ -1,0 +1,21 @@
+.banner {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 163px;
+    position: relative;
+    &_info_wrap {
+        max-width: 48%;
+    }
+    &_header {
+        font-size: 90px;
+        font-weight: bold;
+        line-height: 0.89;
+        letter-spacing: -1.8px;
+    }
+    &_text {
+        font-family: 'PT-Serif', serif;
+        line-height: 1.4;
+        letter-spacing: -0.4px;
+        margin-top: 43px;
+    }
+}

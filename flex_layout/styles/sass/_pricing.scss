@@ -1,0 +1,74 @@
+.pricing {
+    background-color: $main_color_light;
+    padding-top: 50px;
+    text-align: center;
+    font-family: "PT-Serif", serif;
+    &_header {
+        font-family: "Montserrat", sans-serif;
+        font-size: 50px;
+        font-weight: bold;
+        line-height: 1.6;
+        letter-spacing: -1px;
+        color: #1f1f1f; 
+    }
+    &_cards {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 42px;
+    }
+    &_card {
+        width: 318px;
+        padding: 36px 20px 13px;
+        background-color: #fff;
+        border-radius: 5px;
+        &_header {
+            font-size: 22px;
+        }
+        &:nth-child(2) {
+            position: relative;
+            overflow: hidden;
+            &::before {
+                position: absolute;
+                content: "";
+                width: 150px;
+                height: 150px;
+                bottom: 345px;
+                right: 245px;
+                background-color: #b4a993;
+                transform: rotate(45deg);
+            }
+            &::after {
+                position: absolute;
+                content: "Popular";
+                font-size: 17px;
+                letter-spacing: -0.22px;
+                font-family: "PT-Serif", serif;
+                transform: rotate(-45deg);
+                top: 21px;
+                right: 258px;
+            }
+        }
+    }
+    .card_price {
+        margin-top: 20px;
+        font-family: "Montserrat";
+        font-size: 60px;
+        font-weight: bold;
+        line-height: 1.33;
+        letter-spacing: -1.2px;
+        color: $main_color_bright;
+    }
+    .card_features {
+        margin-top: 10px;
+        line-height: 1.4;
+        letter-spacing: -0.4px;
+    }
+    .button {
+        width: 205px;
+        margin-top: 30px;
+        &:hover {
+            background-color: $main_color_bright;
+            color: #fff;
+        }
+    }
+}

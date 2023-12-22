@@ -1,0 +1,15 @@
+.footer {
+    padding: 80px 0 200px;
+    border-radius: 5px;
+    background-color: #161616;
+    color: #fff;
+    .container {
+        display: flex;
+        justify-content: space-between;
+    }
+    .copyright {
+        font-family: "PT-Serif", serif;
+        line-height: 1.1;
+        letter-spacing: -0.4px;
+    }
+}
